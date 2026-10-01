@@ -1,0 +1,95 @@
+name: iOS build
+
+on:
+  push:
+    paths:
+      - "ios/**"
+      - ".github/workflows/ios.yml"
+  pull_request:
+    paths:
+      - "ios/**"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select latest Xcode
+        run: |
+          LATEST=$(ls -d /Applications/Xcode_*.app | sort -V | tail -n1)
+          echo "Selecting $LATEST"
+          sudo xcode-select -s "$LATEST/Contents/Developer"
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        working-directory: ios
+        run: xcodegen generate
+
+      - name: Build (simulator, no signing)
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project Whisprompt.xcodeproj \
+            -scheme Whisprompt \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -derivedDataPath build \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Launch on simulator and screenshot
+        working-directory: ios
+        run: |
+          set -e
+          APP=$(find build/Build/Products -name "Whisprompt.app" -type d | head -n1)
+          DEVICE=$(xcrun simctl list devices available | awk -F '[()]' '/iPhone/ {print $2; exit}')
+          echo "Simulator UDID: $DEVICE"
+          xcrun simctl boot "$DEVICE" || true
+          xcrun simctl bootstatus "$DEVICE" -b || true
+          xcrun simctl install "$DEVICE" "$APP"
+          xcrun simctl launch "$DEVICE" com.whisprompt.app || true
+          sleep 6
+          xcrun simctl io "$DEVICE" screenshot ios-screenshot.png || xcrun simctl io booted screenshot ios-screenshot.png
+          xcrun simctl shutdown "$DEVICE" || true
+
+      - name: Build unsigned device IPA (for sideloading)
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project Whisprompt.xcodeproj \
+            -scheme Whisprompt \
+            -sdk iphoneos \
+            -configuration Debug \
+            -derivedDataPath build-device \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+          APP=$(find build-device/Build/Products -name "Whisprompt.app" -type d | head -n1)
+          echo "Device app: $APP"
+          rm -rf Payload && mkdir Payload
+          cp -R "$APP" Payload/
+          zip -qr Whisprompt-unsigned.ipa Payload
+          ls -la Whisprompt-unsigned.ipa
+
+      - name: Upload screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulator-screenshot
+          path: ios/ios-screenshot.png
+          if-no-files-found: warn
+
+      - name: Upload unsigned IPA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Whisprompt-unsigned-ipa
+          path: ios/Whisprompt-unsigned.ipa
+          if-no-files-found: warn

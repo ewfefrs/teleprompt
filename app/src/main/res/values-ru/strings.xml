@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Подключиться</string>
+    <string name="disconnect">Отключить</string>
+    <string name="cancel_search">Отменить поиск</string>
+    <string name="status_title">Статус очков Even G2</string>
+    <string name="st_disconnected">Отключено</string>
+    <string name="st_scanning">Сканирование…</string>
+    <string name="st_connecting">Подключение…</string>
+    <string name="st_authorizing">Авторизация…</string>
+    <string name="st_connected">Подключено ✓</string>
+    <string name="st_showing">Показ…</string>
+    <string name="st_no_permission">Нет разрешения</string>
+
+    <string name="speed_label">Скорость чтения: %1$d сл/мин</string>
+    <string name="countdown_label">Отсчёт перед стартом (3-2-1)</string>
+    <string name="countdown_desc">Перед авто-прокруткой на очках показывается 3-2-1.</string>
+    <string name="playback_title">Показ</string>
+    <string name="gestures_title">Жесты тачбара</string>
+    <string name="gesture_tap">Одиночный тап</string>
+    <string name="gesture_double">Двойной тап</string>
+    <string name="gesture_swipe_fwd">Свайп вперёд</string>
+    <string name="gesture_swipe_back">Свайп назад</string>
+    <string name="gesture_none">Ничего</string>
+    <string name="gesture_sleep_wake">Погасить / включить экран</string>
+    <string name="gesture_scroll_fwd">Прокрутка вперёд</string>
+    <string name="gesture_scroll_back">Прокрутка назад</string>
+    <string name="gesture_pause_resume">Пауза / продолжить</string>
+    <string name="gesture_exit">Выход</string>
+    <string name="autohide_label">Скрыть текст после конца</string>
+    <string name="autohide_never">Никогда</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_body">Whisprompt создан, чтобы читать свои тексты на очках Even G2 где угодно — на сцене, на встрече, на улице, перед камерой — без зависимости от интернета. Без аккаунта, без облака, без слежки: текст остаётся на телефоне и работает даже в режиме полёта. Сделано тем, кто просто хотел пользоваться очками где хочет — и сохранить эту свободу для всех.</string>
+    <string name="column_width_label">Ширина колонки: %1$d симв.</string>
+    <string name="manual_scroll_label">Прокрутка на очках: строка %1$d / %2$d</string>
+    <string name="brightness_label">Яркость очков: %1$d</string>
+
+    <string name="scroll_mode_title">Прокрутка на очках</string>
+    <string name="mode_auto">Авто</string>
+    <string name="mode_manual">Ручной</string>
+    <string name="mode_hint_auto">Текст плавно едет сам. Скорость меняется на лету, палец подправляет позицию.</string>
+    <string name="mode_hint_manual">Мотайте пальцем по превью или свайпами по тачбару очков — мгновенно, без мигания.</string>
+
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="stop">Стоп</string>
+
+    <string name="preview_title">Превью</string>
+
+    <!-- Переработанный главный экран -->
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · ЛОКАЛЬНО</string>
+    <string name="sec_text">Текст</string>
+    <string name="sec_connection">Подключение</string>
+    <string name="sec_screen">Экран очков</string>
+    <string name="sec_preview">Как на очках · превью</string>
+    <string name="screen_wide">Широкий</string>
+    <string name="screen_narrow">Узкий</string>
+    <string name="preview_hint">Мотайте текст пальцем — очки следуют. Тап — на весь экран.</string>
+    <string name="current_text">Текущий текст</string>
+    <string name="no_text_selected">Текст ещё не выбран — выберите или создайте новый.</string>
+
+    <string name="create_text">Новый текст</string>
+    <string name="my_texts">Мои тексты</string>
+    <string name="no_texts">Сохранённых текстов пока нет</string>
+    <string name="import_file">Импорт файла</string>
+    <string name="import_error_empty">В файле нет текста.</string>
+    <string name="import_error_doc_old">Старый .doc не поддерживается — сохраните как .docx или .txt и повторите.</string>
+    <string name="import_error_read">Не удалось прочитать файл.</string>
+    <string name="import_truncated">Импортировано. В бесплатной версии остаются первые %1$d слов — откройте полную версию для всего текста.</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="run">Выбрать</string>
+    <string name="save">Сохранить</string>
+    <string name="title_hint">Название</string>
+    <string name="body_hint">Текст</string>
+    <string name="back">Назад</string>
+
+    <string name="settings">Настройки</string>
+    <string name="theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="language">Язык</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+
+    <!-- Авторизация по паролю (Admin / Guest) -->
+    <string name="login_intro">Введите админ-пароль (48 ч) или одноразовый гостевой код (24 ч).</string>
+    <string name="passcode_hint">Админ-пароль или гостевой код</string>
+    <string name="login">Войти</string>
+    <string name="login_failed">Неверный пароль</string>
+    <string name="session_status">Сессия</string>
+    <string name="session_admin">Админ</string>
+    <string name="session_guest">Гость</string>
+    <string name="session_hours_left">осталось %1$d ч</string>
+    <string name="logout">Выйти</string>
+    <string name="change_password">Сменить админ-пароль</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="create_guest">Создать гостевой код</string>
+    <string name="guest_code">Гостевой код</string>
+    <string name="admin_password">Админ-пароль</string>
+    <string name="password_changed">Пароль изменён</string>
+    <string name="guest_created">Гостевой код создан</string>
+    <string name="action_failed">Не удалось — проверьте пароль</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Активация Premium</string>
+    <string name="device_id">Device ID</string>
+    <string name="activation_code">Код активации</string>
+    <string name="copy">Копировать</string>
+    <string name="activate">Активировать</string>
+    <string name="buy_full">Купить полную версию</string>
+    <string name="license_status">Статус лицензии</string>
+    <string name="status_free">Free</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">осталось %1$d ч до повторной проверки</string>
+    <string name="license_expired">Срок доступа истёк — введите код заново, чтобы продолжить</string>
+    <string name="activation_ok">Premium активирован</string>
+    <string name="activation_failed">Неверный код активации</string>
+    <string name="copied">Скопировано</string>
+
+    <string name="free_limit_warning">Доступен только текст до 100 слов. Купите полную версию для использования текстов без ограничений.</string>
+
+    <string name="permissions_needed">Нужны разрешения</string>
+    <string name="perm_intro">Чтобы подключиться к очкам Even G2, приложению требуется:</string>
+    <string name="perm_bluetooth">Bluetooth — поиск и подключение к очкам.</string>
+    <string name="perm_notifications">Уведомления — фоновый сервис связи показывает статус подключения.</string>
+    <string name="perm_location">Геолокация — обязательна для BLE-сканирования на Android 11 и старше.</string>
+    <string name="grant_permissions">Предоставить разрешения</string>
+    <string name="open_app_settings">Открыть настройки приложения</string>
+    <string name="perm_settings_hint">Если запрос больше не появляется — включите разрешения вручную.</string>
+
+    <string name="crash_title">Приложение упало при запуске</string>
+    <string name="crash_hint">Скопируйте текст ниже и пришлите — по нему найдём причину:</string>
+    <string name="retry">Повторить запуск</string>
+
+    <!-- Названия языков (эндонимы — одинаковы в любой локали) -->
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <!-- Меню выбора текста на очках -->
+    <string name="menu_select_text">Выберите текст</string>
+    <string name="menu_no_texts">Нет текстов. Добавьте на телефоне.</string>
+    <string name="menu_untitled">Без названия</string>
+
+    <!-- Предполагаемое время чтения (авто-режим) -->
+    <string name="est_time_label">Время чтения (авто): %1$s</string>
+    <string name="time_min_sec">%1$d мин %2$d с</string>
+    <string name="time_sec">%1$d с</string>
+
+    <!-- Режим приложения: публичный / аренда -->
+    <string name="app_mode">Режим приложения</string>
+    <string name="mode_public">Публичный</string>
+    <string name="mode_rental">Аренда</string>
+    <string name="mode_public_desc">Открыт для всех, без пароля. Действуют лимиты бесплатного тарифа.</string>
+    <string name="mode_rental_desc">Доступ по админ-паролю и одноразовым гостевым кодам — для сдачи очков в аренду.</string>
+    <string name="enable_rental">Включить режим аренды</string>
+    <string name="disable_rental">Вернуть публичный режим</string>
+    <string name="rental_enabled">Режим аренды включён</string>
+    <string name="rental_disabled">Публичный режим включён</string>
+    <string name="rental_disable_admin">Введите админ-пароль, чтобы выйти из режима аренды</string>
+
+    <!-- Премиум / покупка -->
+    <string name="premium_title">Премиум</string>
+    <string name="premium_desc">Снимает все лимиты: тексты и слова без ограничений.</string>
+    <string name="premium_free_plan">Бесплатно: до %1$d текстов по %2$d слов.</string>
+    <string name="buy_premium">Купить премиум</string>
+    <string name="restore_purchase">Восстановить покупку</string>
+    <string name="enter_key">Ввести ключ активации</string>
+    <string name="key_hint">Ключ активации</string>
+    <string name="buy_key_hint">Ключ активации можно купить в нашем Telegram-боте: %1$s</string>
+    <string name="buy_key_intro">Получите ключ активации в нашем Telegram-боте:</string>
+    <string name="open_in_telegram">Открыть в Telegram</string>
+    <string name="disclaimer_title">Перед покупкой премиума</string>
+    <string name="disclaimer_text">Премиум (полный доступ) — цифровой товар. Возврат средств невозможен. Нажимая «Согласен», вы подтверждаете, что не имеете претензий к разработчику.</string>
+    <string name="agree">Согласен</string>
+    <string name="rental_needs_premium">Режим аренды доступен только с премиумом. Сначала активируйте премиум.</string>
+    <string name="set_admin_title">Задайте админ-пароль</string>
+    <string name="set_admin_hint">Этим паролем открывается режим аренды. Придумайте (мин. 4 символа).</string>
+    <string name="premium_active">Премиум активен — спасибо!</string>
+    <string name="purchase_pending">Ждём подтверждения оплаты банком…</string>
+    <string name="purchase_ok">Оплата подтверждена — премиум открыт</string>
+    <string name="purchase_failed">Не удалось завершить покупку</string>
+    <string name="billing_unavailable">Магазин недоступен. Установите приложение из Google Play, чтобы купить премиум.</string>
+    <string name="limit_texts_reached">На бесплатном тарифе до %1$d текстов. Премиум — без ограничений.</string>
+    <string name="limit_words_notice">Бесплатно показываются первые %1$d слов. Премиум — весь текст.</string>
+    <string name="editor_over_limit">Бесплатно: до %1$d слов (лимит). Премиум — без ограничений.</string>
+
+    <!-- Справка / частые вопросы -->
+    <string name="faq_title">Справка и вопросы</string>
+    <string name="faq_q_modes">Что такое режимы «Публичный» и «Аренда»?</string>
+    <string name="faq_a_modes">Публичный — обычное приложение: открыть может любой, действуют лимиты бесплатного тарифа. Аренда закрывает доступ админ-паролем и одноразовыми гостевыми кодами — для выдачи очков другим людям.</string>
+    <string name="faq_q_glasses">Как выбрать текст на очках?</string>
+    <string name="faq_a_glasses">Откройте приложение из меню очков. Свайпайте по тачбару, чтобы листать тексты, одиночный тап — запустить выбранный, двойной — вернуться домой.</string>
+    <string name="faq_q_auto">Что делает авто-режим?</string>
+    <string name="faq_a_auto">В авто-режиме текст едет сам с вашей скоростью чтения (сл/мин). Рядом со скоростью показано предполагаемое время прочтения всего текста.</string>
+    <string name="faq_q_limits">Какие лимиты у бесплатного тарифа?</string>
+    <string name="faq_a_limits">Бесплатно: до 2 текстов по 100 слов. Премиум снимает оба лимита.</string>
+    <string name="faq_q_premium">Как работает покупка премиума?</string>
+    <string name="faq_a_premium">Нажмите «Купить премиум» и подтвердите оплату. Как только банк/Google Play её подтвердит, премиум откроется автоматически. На новом устройстве нажмите «Восстановить покупку».</string>
+    <string name="faq_q_lang">Можно сменить язык?</string>
+    <string name="faq_a_lang">Да — выберите язык в настройках. Язык меню на очках меняется вместе с ним.</string>
+
+    <!-- Контакты -->
+    <string name="contact_title">Связаться</string>
+    <string name="contact_desc">Вопросы, ошибки или идеи? Напишите нам:</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">Написать письмо</string>
+    <string name="contact_subject">Whisprompt — поддержка</string>
+
+    <!-- Подпись автора (одинакова во всех языках) -->
+    <string name="signature_text">Создано разъярённым 16-летним школьником, который просто хотел использовать очки там, где хочет.</string>
+
+    <!-- Метки разделов -->
+    <string name="sec_help">Справка</string>
+    <string name="sec_access">Доступ и режим</string>
+
+    <!-- Промо в конце каждого текста (бесплатная версия) -->
+    <string name="promo_buy_full">Полная версия: %1$s</string>
+    <!-- FAQ: фон/батарея + возврат интерфейса Even -->
+    <string name="faq_q_battery">Приложение работает в фоне?</string>
+    <string name="faq_a_battery">Да. Пока идёт связь с очками, работает фоновый сервис (с уведомлением), чтобы не терять подключение — это может расходовать заряд. Нажмите «Отключить» (в приложении или в уведомлении), чтобы остановить.</string>
+    <string name="faq_q_even">Как вернуть полный интерфейс приложения Even?</string>
+    <string name="faq_a_even">Просто откройте и подключитесь официальным приложением Even — оно вернёт стандартный полный интерфейс на очках.</string>
+    <string name="faq_q_ring">Работает ли кольцо R1?</string>
+    <string name="faq_a_ring">Пока нет — управление кольцом R1 появится скоро. Сейчас используйте тачбар очков (настраивается в Настройках) или телефон. Поддержка кольца в работе.</string>
+</resources>

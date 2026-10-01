@@ -1,0 +1,33 @@
+# Секреты подписи релиза — НИКОГДА не коммитить
+keystore.properties
+*.jks
+*.keystore
+
+# Android build
+build/
+.gradle/
+local.properties
+*.apk
+
+# Секреты бота и лицензий — НИКОГДА не коммитить
+tools/tgbot/bot_token.txt
+tools/tgbot/xrocket_token.txt
+tools/tgbot/license_private_b64.txt
+*token*.txt
+*private*.txt
+
+# Python / IDE / локальные настройки
+__pycache__/
+*.pyc
+.idea/
+.kotlin/
+.claude/settings.local.json
+
+# Отдельный репозиторий (ewfefrs/teaboom-product-card)
+teaboom-card/
+teaboom-card.zip
+*.pem
+
+# Фото людей и копия сайта ЕдридМадрид со встроенным фото — не в репозиторий
+doodles/mihail.jpg
+/index.html

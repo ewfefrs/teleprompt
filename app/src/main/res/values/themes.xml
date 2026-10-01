@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Тема активити для чистого Jetpack Compose. Наследуемся от платформенной
+        Material-темы без ActionBar, чтобы НЕ тянуть зависимость от MDC
+        (com.google.android.material) — весь UI рисует Compose/Material3.
+        Платформенная тема доступна с API 21, наш minSdk 26 — совместимо.
+    -->
+    <style name="Theme.Teleprompter" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

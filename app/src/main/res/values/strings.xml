@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="cancel_search">Cancel search</string>
+    <string name="status_title">Even G2 glasses status</string>
+    <string name="st_disconnected">Disconnected</string>
+    <string name="st_scanning">Scanning…</string>
+    <string name="st_connecting">Connecting…</string>
+    <string name="st_authorizing">Authorizing…</string>
+    <string name="st_connected">Connected ✓</string>
+    <string name="st_showing">Showing…</string>
+    <string name="st_no_permission">No permission</string>
+
+    <string name="speed_label">Reading speed: %1$d WPM</string>
+    <string name="countdown_label">Countdown before start (3-2-1)</string>
+    <string name="countdown_desc">Show 3-2-1 on the glasses before auto-scroll starts.</string>
+    <string name="playback_title">Playback</string>
+    <string name="gestures_title">Touchbar gestures</string>
+    <string name="gesture_tap">Single tap</string>
+    <string name="gesture_double">Double tap</string>
+    <string name="gesture_swipe_fwd">Swipe forward</string>
+    <string name="gesture_swipe_back">Swipe back</string>
+    <string name="gesture_none">Nothing</string>
+    <string name="gesture_sleep_wake">Sleep / wake screen</string>
+    <string name="gesture_scroll_fwd">Scroll forward</string>
+    <string name="gesture_scroll_back">Scroll back</string>
+    <string name="gesture_pause_resume">Pause / resume</string>
+    <string name="gesture_exit">Exit</string>
+    <string name="autohide_label">Hide text after end</string>
+    <string name="autohide_never">Never</string>
+    <string name="about_title">About</string>
+    <string name="about_body">Whisprompt was made so you can read your own scripts on your Even G2 glasses anywhere — on stage, in a meeting, on the street, on camera — without depending on the internet. No account, no cloud, no tracking: your text stays on your phone and works even in airplane mode. Built by someone who just wanted to use their glasses wherever they want — and to keep that freedom for everyone.</string>
+    <string name="column_width_label">Column width: %1$d chars</string>
+    <string name="manual_scroll_label">Scroll on glasses: line %1$d / %2$d</string>
+    <string name="brightness_label">Glasses brightness: %1$d</string>
+
+    <string name="scroll_mode_title">Scrolling on glasses</string>
+    <string name="mode_auto">Auto</string>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_hint_auto">Text scrolls smoothly on its own. Speed changes live; your finger nudges the position.</string>
+    <string name="mode_hint_manual">Scroll with your finger on the preview, or swipe the glasses touchbar — instant, no flicker.</string>
+
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+
+    <string name="preview_title">Preview</string>
+
+    <!-- Redesigned main screen -->
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · OFFLINE</string>
+    <string name="sec_text">Text</string>
+    <string name="sec_connection">Connection</string>
+    <string name="sec_screen">Glasses screen</string>
+    <string name="sec_preview">As on glasses · preview</string>
+    <string name="screen_wide">Wide</string>
+    <string name="screen_narrow">Narrow</string>
+    <string name="preview_hint">Scroll the text with your finger — the glasses follow. Tap for fullscreen.</string>
+    <string name="current_text">Current text</string>
+    <string name="no_text_selected">No text chosen yet — pick one or create a new one.</string>
+
+    <string name="create_text">New text</string>
+    <string name="my_texts">My texts</string>
+    <string name="no_texts">No saved texts yet</string>
+    <string name="import_file">Import file</string>
+    <string name="import_error_empty">The file has no text.</string>
+    <string name="import_error_doc_old">Old .doc isn\'t supported — save it as .docx or .txt and try again.</string>
+    <string name="import_error_read">Couldn\'t read the file.</string>
+    <string name="import_truncated">Imported. The free version keeps the first %1$d words — unlock the full version for the whole script.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="run">Select</string>
+    <string name="save">Save</string>
+    <string name="title_hint">Title</string>
+    <string name="body_hint">Text</string>
+    <string name="back">Back</string>
+
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+
+    <!-- Password auth (Admin / Guest) -->
+    <string name="login_intro">Enter your Admin Passcode (48 h) or a one-time Guest Code (24 h).</string>
+    <string name="passcode_hint">Admin or guest code</string>
+    <string name="login">Enter</string>
+    <string name="login_failed">Wrong passcode</string>
+    <string name="session_status">Session</string>
+    <string name="session_admin">Admin</string>
+    <string name="session_guest">Guest</string>
+    <string name="session_hours_left">%1$d h left</string>
+    <string name="logout">Log out</string>
+    <string name="change_password">Change admin password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="create_guest">Create guest code</string>
+    <string name="guest_code">Guest code</string>
+    <string name="admin_password">Admin password</string>
+    <string name="password_changed">Password changed</string>
+    <string name="guest_created">Guest code created</string>
+    <string name="action_failed">Failed — check the password</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Premium activation</string>
+    <string name="device_id">Device ID</string>
+    <string name="activation_code">Activation code</string>
+    <string name="copy">Copy</string>
+    <string name="activate">Activate</string>
+    <string name="buy_full">Buy full version</string>
+    <string name="license_status">License status</string>
+    <string name="status_free">Free</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">%1$d h left until re-verification</string>
+    <string name="license_expired">Access period expired — enter the code again to continue</string>
+    <string name="activation_ok">Premium activated</string>
+    <string name="activation_failed">Invalid activation code</string>
+    <string name="copied">Copied</string>
+
+    <string name="free_limit_warning">Only the first 100 words are available. Buy the full version to use texts without limits.</string>
+
+    <string name="permissions_needed">Permissions needed</string>
+    <string name="perm_intro">To connect to the Even G2 glasses the app needs:</string>
+    <string name="perm_bluetooth">Bluetooth — find and connect to the glasses.</string>
+    <string name="perm_notifications">Notifications — the background link service shows connection status.</string>
+    <string name="perm_location">Location — required for BLE scanning on Android 11 and older.</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="open_app_settings">Open app settings</string>
+    <string name="perm_settings_hint">If the prompt no longer appears, enable the permissions manually.</string>
+
+    <string name="crash_title">The app crashed on start</string>
+    <string name="crash_hint">Copy the text below and send it — we will find the cause:</string>
+    <string name="retry">Restart</string>
+
+    <!-- Language names (endonyms — same in every locale) -->
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <!-- Glasses text-selection menu -->
+    <string name="menu_select_text">Select a text</string>
+    <string name="menu_no_texts">No texts. Add on the phone.</string>
+    <string name="menu_untitled">Untitled</string>
+
+    <!-- Estimated reading time (auto mode) -->
+    <string name="est_time_label">Est. reading time (auto): %1$s</string>
+    <string name="time_min_sec">%1$d min %2$d s</string>
+    <string name="time_sec">%1$d s</string>
+
+    <!-- App mode: public vs rental -->
+    <string name="app_mode">App mode</string>
+    <string name="mode_public">Public</string>
+    <string name="mode_rental">Rental</string>
+    <string name="mode_public_desc">Open for everyone, no passcode. Free plan limits apply.</string>
+    <string name="mode_rental_desc">Access is gated by an Admin passcode and one-time Guest codes — for renting the glasses out.</string>
+    <string name="enable_rental">Switch to Rental mode</string>
+    <string name="disable_rental">Switch to Public mode</string>
+    <string name="rental_enabled">Rental mode is on</string>
+    <string name="rental_disabled">Public mode is on</string>
+    <string name="rental_disable_admin">Enter the admin password to leave Rental mode</string>
+
+    <!-- Premium / purchase -->
+    <string name="premium_title">Premium</string>
+    <string name="premium_desc">Remove all limits: unlimited texts and unlimited words.</string>
+    <string name="premium_free_plan">Free plan: up to %1$d texts, %2$d words each.</string>
+    <string name="buy_premium">Buy Premium</string>
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="enter_key">Enter activation key</string>
+    <string name="key_hint">Activation key</string>
+    <string name="buy_key_hint">Get an activation key from our Telegram bot: %1$s</string>
+    <string name="buy_key_intro">Get an activation key from our Telegram bot:</string>
+    <string name="open_in_telegram">Open in Telegram</string>
+    <string name="disclaimer_title">Before you get Premium</string>
+    <string name="disclaimer_text">Premium (full access) is a digital product. Purchases are non-refundable — no monetary refund is possible. By tapping “I agree” you confirm you have no claims against the developer.</string>
+    <string name="agree">I agree</string>
+    <string name="rental_needs_premium">Rental mode requires Premium. Activate Premium first.</string>
+    <string name="set_admin_title">Set an admin password</string>
+    <string name="set_admin_hint">This password unlocks Rental mode. Choose one (min 4 characters).</string>
+    <string name="premium_active">Premium active — thank you!</string>
+    <string name="purchase_pending">Waiting for the bank to confirm payment…</string>
+    <string name="purchase_ok">Payment confirmed — Premium unlocked</string>
+    <string name="purchase_failed">Purchase could not be completed</string>
+    <string name="billing_unavailable">Store is unavailable. Install via Google Play to buy Premium.</string>
+    <string name="limit_texts_reached">Free plan allows up to %1$d texts. Go Premium for unlimited.</string>
+    <string name="limit_words_notice">Free plan shows the first %1$d words. Go Premium for the full text.</string>
+
+    <!-- Help / FAQ -->
+    <string name="faq_title">Help &amp; FAQ</string>
+    <string name="faq_q_modes">What are Public and Rental modes?</string>
+    <string name="faq_a_modes">Public mode is the normal app — anyone can open it, with free-plan limits. Rental mode locks access behind an admin passcode and one-time guest codes, for lending the glasses to others.</string>
+    <string name="faq_q_glasses">How do I pick a text on the glasses?</string>
+    <string name="faq_a_glasses">Open the app from the glasses menu. Swipe the touchbar to move through your texts, single-tap to start the selected one, double-tap to go home.</string>
+    <string name="faq_q_auto">What does Auto mode do?</string>
+    <string name="faq_a_auto">In Auto mode the text scrolls on its own at your reading speed (WPM). The estimated time to read the whole text is shown next to the speed.</string>
+    <string name="faq_q_limits">What are the free-plan limits?</string>
+    <string name="faq_a_limits">Free plan: up to 2 texts, 100 words each. Premium removes both limits.</string>
+    <string name="faq_q_premium">How does buying Premium work?</string>
+    <string name="faq_a_premium">Tap Buy Premium and confirm the payment. Once your bank/Google Play confirms it, Premium unlocks automatically. Use Restore purchase on a new device.</string>
+    <string name="faq_q_lang">Can I change the language?</string>
+    <string name="faq_a_lang">Yes — pick a language in Settings. The glasses menu follows the same language.</string>
+
+    <!-- Contact -->
+    <string name="contact_title">Contact</string>
+    <string name="contact_desc">Questions, bugs or ideas? Write to us:</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">Write an email</string>
+    <string name="contact_subject">Whisprompt — support</string>
+
+    <!-- Author signature (kept as-is in every language) -->
+    <string name="signature_text">Made by a furious 16-year-old who just wanted to use his glasses wherever he pleases.</string>
+
+    <!-- Section labels / icons -->
+    <string name="sec_help">Help</string>
+    <string name="sec_access">Access &amp; mode</string>
+
+    <!-- Free-version promo appended to the end of each text -->
+    <string name="promo_buy_full">Get the full version: %1$s</string>
+    <string name="editor_over_limit">Free plan limit: %1$d words max. Go Premium for unlimited.</string>
+
+    <!-- FAQ: background/battery + restore Even app -->
+    <string name="faq_q_battery">Does the app run in the background?</string>
+    <string name="faq_a_battery">Yes. While connected to the glasses it keeps a background service (with a notification) so the link stays alive — this can use extra battery. Tap Disconnect (in the app or the notification) to stop it.</string>
+    <string name="faq_q_even">How do I restore the full Even app interface?</string>
+    <string name="faq_a_even">Just open and connect with the official Even app — it brings back the full standard interface on the glasses.</string>
+    <string name="faq_q_ring">Does it work with the R1 ring?</string>
+    <string name="faq_a_ring">Not yet — R1 ring control is coming soon. For now use the glasses touchbar (customizable in Settings) or your phone. Ring support is in the works.</string>
+</resources>

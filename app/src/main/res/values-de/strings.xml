@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Verbinden</string>
+    <string name="disconnect">Trennen</string>
+    <string name="cancel_search">Suche abbrechen</string>
+    <string name="status_title">Status der Even-G2-Brille</string>
+    <string name="st_disconnected">Getrennt</string>
+    <string name="st_scanning">Suche…</string>
+    <string name="st_connecting">Verbinde…</string>
+    <string name="st_authorizing">Autorisiere…</string>
+    <string name="st_connected">Verbunden ✓</string>
+    <string name="st_showing">Anzeige…</string>
+    <string name="st_no_permission">Keine Berechtigung</string>
+
+    <string name="speed_label">Lesegeschwindigkeit: %1$d WPM</string>
+    <string name="countdown_label">Countdown vor dem Start (3-2-1)</string>
+    <string name="countdown_desc">Zeigt vor dem automatischen Scrollen 3-2-1 auf der Brille an.</string>
+    <string name="playback_title">Wiedergabe</string>
+    <string name="gestures_title">Touchbar-Gesten</string>
+    <string name="gesture_tap">Einfaches Tippen</string>
+    <string name="gesture_double">Doppeltippen</string>
+    <string name="gesture_swipe_fwd">Vorwärts wischen</string>
+    <string name="gesture_swipe_back">Zurück wischen</string>
+    <string name="gesture_none">Nichts</string>
+    <string name="gesture_sleep_wake">Bildschirm aus / an</string>
+    <string name="gesture_scroll_fwd">Vorwärts scrollen</string>
+    <string name="gesture_scroll_back">Zurück scrollen</string>
+    <string name="gesture_pause_resume">Pause / fortsetzen</string>
+    <string name="gesture_exit">Beenden</string>
+    <string name="autohide_label">Text nach Ende ausblenden</string>
+    <string name="autohide_never">Nie</string>
+    <string name="about_title">Über die App</string>
+    <string name="about_body">Whisprompt wurde gemacht, damit du deine eigenen Skripte überall auf deiner Even G2 lesen kannst — auf der Bühne, im Meeting, auf der Straße, vor der Kamera — ohne Abhängigkeit vom Internet. Kein Konto, keine Cloud, kein Tracking: Dein Text bleibt auf deinem Telefon und funktioniert sogar im Flugmodus. Entwickelt von jemandem, der seine Brille einfach überall nutzen wollte — und diese Freiheit für alle bewahren möchte.</string>
+    <string name="column_width_label">Spaltenbreite: %1$d Zeichen</string>
+    <string name="manual_scroll_label">Scrollen auf der Brille: Zeile %1$d / %2$d</string>
+    <string name="brightness_label">Helligkeit der Brille: %1$d</string>
+
+    <string name="scroll_mode_title">Scrollen auf der Brille</string>
+    <string name="mode_auto">Auto</string>
+    <string name="mode_manual">Manuell</string>
+    <string name="mode_hint_auto">Der Text scrollt von selbst. Die Geschwindigkeit ändert sich sofort; dein Finger justiert die Position.</string>
+    <string name="mode_hint_manual">Scrolle mit dem Finger in der Vorschau oder wische über das Touchpad der Brille — sofort, ohne Flackern.</string>
+
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Fortsetzen</string>
+    <string name="stop">Stopp</string>
+
+    <string name="preview_title">Vorschau</string>
+
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · OFFLINE</string>
+    <string name="sec_text">Text</string>
+    <string name="sec_connection">Verbindung</string>
+    <string name="sec_screen">Brillen-Display</string>
+    <string name="sec_preview">Wie auf der Brille · Vorschau</string>
+    <string name="screen_wide">Breit</string>
+    <string name="screen_narrow">Schmal</string>
+    <string name="preview_hint">Scrolle den Text mit dem Finger — die Brille folgt. Tippen für Vollbild.</string>
+    <string name="current_text">Aktueller Text</string>
+    <string name="no_text_selected">Noch kein Text gewählt — wähle einen oder erstelle einen neuen.</string>
+
+    <string name="create_text">Neuer Text</string>
+    <string name="my_texts">Meine Texte</string>
+    <string name="no_texts">Noch keine gespeicherten Texte</string>
+    <string name="import_file">Datei importieren</string>
+    <string name="import_error_empty">Die Datei enthält keinen Text.</string>
+    <string name="import_error_doc_old">Altes .doc wird nicht unterstützt — als .docx oder .txt speichern und erneut versuchen.</string>
+    <string name="import_error_read">Datei konnte nicht gelesen werden.</string>
+    <string name="import_truncated">Importiert. Die kostenlose Version behält die ersten %1$d Wörter — schalte die Vollversion für den ganzen Text frei.</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+    <string name="run">Wählen</string>
+    <string name="save">Speichern</string>
+    <string name="title_hint">Titel</string>
+    <string name="body_hint">Text</string>
+    <string name="back">Zurück</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="theme">Design</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="language">Sprache</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <string name="login_intro">Gib dein Admin-Passwort (48 Std.) oder einen einmaligen Gastcode (24 Std.) ein.</string>
+    <string name="passcode_hint">Admin-Passwort oder Gastcode</string>
+    <string name="login">Anmelden</string>
+    <string name="login_failed">Falsches Passwort</string>
+    <string name="session_status">Sitzung</string>
+    <string name="session_admin">Admin</string>
+    <string name="session_guest">Gast</string>
+    <string name="session_hours_left">noch %1$d Std.</string>
+    <string name="logout">Abmelden</string>
+    <string name="change_password">Admin-Passwort ändern</string>
+    <string name="current_password">Aktuelles Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+    <string name="create_guest">Gastcode erstellen</string>
+    <string name="guest_code">Gastcode</string>
+    <string name="admin_password">Admin-Passwort</string>
+    <string name="password_changed">Passwort geändert</string>
+    <string name="guest_created">Gastcode erstellt</string>
+    <string name="action_failed">Fehlgeschlagen — Passwort prüfen</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Premium-Aktivierung</string>
+    <string name="device_id">Geräte-ID</string>
+    <string name="activation_code">Aktivierungscode</string>
+    <string name="copy">Kopieren</string>
+    <string name="activate">Aktivieren</string>
+    <string name="buy_full">Vollversion kaufen</string>
+    <string name="license_status">Lizenzstatus</string>
+    <string name="status_free">Kostenlos</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">noch %1$d Std. bis zur erneuten Prüfung</string>
+    <string name="license_expired">Zugriff abgelaufen — Code erneut eingeben, um fortzufahren</string>
+    <string name="activation_ok">Premium aktiviert</string>
+    <string name="activation_failed">Ungültiger Aktivierungscode</string>
+    <string name="copied">Kopiert</string>
+
+    <string name="free_limit_warning">Nur die ersten 100 Wörter werden angezeigt. Kaufe die Vollversion für Texte ohne Limit.</string>
+
+    <string name="permissions_needed">Berechtigungen erforderlich</string>
+    <string name="perm_intro">Zum Verbinden mit der Even-G2-Brille braucht die App:</string>
+    <string name="perm_bluetooth">Bluetooth — Brille finden und verbinden.</string>
+    <string name="perm_notifications">Benachrichtigungen — der Hintergrunddienst zeigt den Verbindungsstatus.</string>
+    <string name="perm_location">Standort — nötig für den BLE-Scan unter Android 11 und älter.</string>
+    <string name="grant_permissions">Berechtigungen erteilen</string>
+    <string name="open_app_settings">App-Einstellungen öffnen</string>
+    <string name="perm_settings_hint">Wenn die Abfrage nicht mehr erscheint, aktiviere die Berechtigungen manuell.</string>
+
+    <string name="crash_title">Die App ist beim Start abgestürzt</string>
+    <string name="crash_hint">Kopiere den Text unten und sende ihn — wir finden die Ursache:</string>
+    <string name="retry">Neu starten</string>
+
+    <string name="menu_select_text">Text auswählen</string>
+    <string name="menu_no_texts">Keine Texte. Am Telefon hinzufügen.</string>
+    <string name="menu_untitled">Ohne Titel</string>
+
+    <string name="est_time_label">Lesezeit (Auto): %1$s</string>
+    <string name="time_min_sec">%1$d Min %2$d s</string>
+    <string name="time_sec">%1$d s</string>
+
+    <string name="app_mode">App-Modus</string>
+    <string name="mode_public">Öffentlich</string>
+    <string name="mode_rental">Vermietung</string>
+    <string name="mode_public_desc">Für alle offen, ohne Passwort. Es gelten die Limits des Gratis-Tarifs.</string>
+    <string name="mode_rental_desc">Zugriff geschützt durch Admin-Passwort und Gastcodes — zum Vermieten der Brille.</string>
+    <string name="enable_rental">Zu Vermietung wechseln</string>
+    <string name="disable_rental">Zu Öffentlich wechseln</string>
+    <string name="rental_enabled">Vermietungsmodus aktiv</string>
+    <string name="rental_disabled">Öffentlicher Modus aktiv</string>
+    <string name="rental_disable_admin">Admin-Passwort eingeben, um den Vermietungsmodus zu verlassen</string>
+
+    <string name="premium_title">Premium</string>
+    <string name="premium_desc">Entfernt alle Limits: Texte und Wörter ohne Beschränkung.</string>
+    <string name="premium_free_plan">Gratis-Tarif: bis zu %1$d Texte, je %2$d Wörter.</string>
+    <string name="buy_premium">Premium kaufen</string>
+    <string name="restore_purchase">Kauf wiederherstellen</string>
+    <string name="premium_active">Premium aktiv — danke!</string>
+    <string name="purchase_pending">Warte auf die Zahlungsbestätigung der Bank…</string>
+    <string name="purchase_ok">Zahlung bestätigt — Premium freigeschaltet</string>
+    <string name="purchase_failed">Kauf konnte nicht abgeschlossen werden</string>
+    <string name="billing_unavailable">Store nicht verfügbar. Über Google Play installieren, um Premium zu kaufen.</string>
+    <string name="limit_texts_reached">Der Gratis-Tarif erlaubt bis zu %1$d Texte. Mit Premium unbegrenzt.</string>
+    <string name="limit_words_notice">Der Gratis-Tarif zeigt die ersten %1$d Wörter. Mit Premium den ganzen Text.</string>
+
+    <string name="faq_title">Hilfe &amp; FAQ</string>
+    <string name="faq_q_modes">Was sind die Modi Öffentlich und Vermietung?</string>
+    <string name="faq_a_modes">Der öffentliche Modus ist die normale App — jeder kann sie öffnen, mit den Limits des Gratis-Tarifs. Der Vermietungsmodus schützt den Zugriff durch ein Admin-Passwort und einmalige Gastcodes, zum Verleihen der Brille.</string>
+    <string name="faq_q_glasses">Wie wähle ich einen Text auf der Brille?</string>
+    <string name="faq_a_glasses">Öffne die App über das Brillenmenü. Wische über das Touchpad, um durch deine Texte zu blättern, tippe einmal, um den gewählten zu starten, tippe zweimal, um zum Start zu gelangen.</string>
+    <string name="faq_q_auto">Was macht der Auto-Modus?</string>
+    <string name="faq_a_auto">Im Auto-Modus scrollt der Text von selbst mit deiner Lesegeschwindigkeit (WPM). Die geschätzte Zeit, um den ganzen Text zu lesen, steht neben der Geschwindigkeit.</string>
+    <string name="faq_q_limits">Welche Limits hat der Gratis-Tarif?</string>
+    <string name="faq_a_limits">Gratis-Tarif: bis zu 2 Texte, je 100 Wörter. Premium entfernt beide Limits.</string>
+    <string name="faq_q_premium">Wie funktioniert der Premium-Kauf?</string>
+    <string name="faq_a_premium">Tippe auf Premium kaufen und bestätige die Zahlung. Sobald deine Bank/Google Play sie bestätigt, wird Premium automatisch freigeschaltet. Nutze Kauf wiederherstellen auf einem neuen Gerät.</string>
+    <string name="faq_q_lang">Kann ich die Sprache ändern?</string>
+    <string name="faq_a_lang">Ja — wähle eine Sprache in den Einstellungen. Das Brillenmenü folgt derselben Sprache.</string>
+
+    <string name="contact_title">Kontakt</string>
+    <string name="contact_desc">Fragen, Fehler oder Ideen? Schreib uns:</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">E-Mail schreiben</string>
+    <string name="contact_subject">Whisprompt — Support</string>
+
+    <string name="signature_text">Gemacht von einem wütenden 16-Jährigen, der seine Brille einfach überall benutzen wollte.</string>
+
+    <string name="sec_help">Hilfe</string>
+    <string name="sec_access">Zugriff &amp; Modus</string>
+    <string name="promo_buy_full">Vollversion: %1$s</string>
+    <string name="faq_q_battery">Läuft die App im Hintergrund?</string>
+    <string name="faq_a_battery">Ja. Während der Verbindung mit der Brille läuft ein Hintergrunddienst (mit Benachrichtigung), damit die Verbindung bestehen bleibt — das kann Akku verbrauchen. Tippe auf Trennen, um ihn zu stoppen.</string>
+    <string name="faq_q_even">Wie stelle ich die vollständige Even-App-Oberfläche wieder her?</string>
+    <string name="faq_a_even">Verbinde dich einfach mit der offiziellen Even-App — sie stellt die vollständige Standardoberfläche auf der Brille wieder her.</string>
+    <string name="faq_q_ring">Funktioniert der R1-Ring?</string>
+    <string name="faq_a_ring">Noch nicht — die Steuerung per R1-Ring kommt bald. Nutze vorerst die Touchbar der Brille (in den Einstellungen anpassbar) oder das Telefon. Die Ring-Unterstützung ist in Arbeit.</string>
+</resources>

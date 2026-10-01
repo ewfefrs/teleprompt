@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="cancel_search">Cancelar busca</string>
+    <string name="status_title">Estado dos óculos Even G2</string>
+    <string name="st_disconnected">Desconectado</string>
+    <string name="st_scanning">Procurando…</string>
+    <string name="st_connecting">Conectando…</string>
+    <string name="st_authorizing">Autorizando…</string>
+    <string name="st_connected">Conectado ✓</string>
+    <string name="st_showing">Exibindo…</string>
+    <string name="st_no_permission">Sem permissão</string>
+
+    <string name="speed_label">Velocidade de leitura: %1$d PPM</string>
+    <string name="countdown_label">Contagem regressiva antes de começar (3-2-1)</string>
+    <string name="countdown_desc">Mostra 3-2-1 nos óculos antes de a rolagem automática começar.</string>
+    <string name="playback_title">Reprodução</string>
+    <string name="gestures_title">Gestos da barra tátil</string>
+    <string name="gesture_tap">Toque único</string>
+    <string name="gesture_double">Toque duplo</string>
+    <string name="gesture_swipe_fwd">Deslizar para frente</string>
+    <string name="gesture_swipe_back">Deslizar para trás</string>
+    <string name="gesture_none">Nada</string>
+    <string name="gesture_sleep_wake">Desligar / ligar tela</string>
+    <string name="gesture_scroll_fwd">Rolar para frente</string>
+    <string name="gesture_scroll_back">Rolar para trás</string>
+    <string name="gesture_pause_resume">Pausar / retomar</string>
+    <string name="gesture_exit">Sair</string>
+    <string name="autohide_label">Ocultar texto ao terminar</string>
+    <string name="autohide_never">Nunca</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_body">O Whisprompt foi criado para você ler seus próprios roteiros nos óculos Even G2 em qualquer lugar — no palco, numa reunião, na rua, diante da câmera — sem depender da internet. Sem conta, sem nuvem, sem rastreamento: seu texto fica no seu telefone e funciona até em modo avião. Feito por alguém que só queria usar os óculos onde quisesse — e preservar essa liberdade para todos.</string>
+    <string name="column_width_label">Largura da coluna: %1$d car.</string>
+    <string name="manual_scroll_label">Rolagem nos óculos: linha %1$d / %2$d</string>
+    <string name="brightness_label">Brilho dos óculos: %1$d</string>
+
+    <string name="scroll_mode_title">Rolagem nos óculos</string>
+    <string name="mode_auto">Automático</string>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_hint_auto">O texto rola sozinho. A velocidade muda na hora; seu dedo ajusta a posição.</string>
+    <string name="mode_hint_manual">Role com o dedo na pré-visualização ou deslize na barra tátil dos óculos — instantâneo, sem piscar.</string>
+
+    <string name="start">Iniciar</string>
+    <string name="pause">Pausar</string>
+    <string name="resume">Retomar</string>
+    <string name="stop">Parar</string>
+
+    <string name="preview_title">Pré-visualização</string>
+
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · OFFLINE</string>
+    <string name="sec_text">Texto</string>
+    <string name="sec_connection">Conexão</string>
+    <string name="sec_screen">Tela dos óculos</string>
+    <string name="sec_preview">Como nos óculos · pré-visualização</string>
+    <string name="screen_wide">Largo</string>
+    <string name="screen_narrow">Estreito</string>
+    <string name="preview_hint">Role o texto com o dedo — os óculos acompanham. Toque para tela cheia.</string>
+    <string name="current_text">Texto atual</string>
+    <string name="no_text_selected">Nenhum texto escolhido — selecione um ou crie um novo.</string>
+
+    <string name="create_text">Novo texto</string>
+    <string name="my_texts">Meus textos</string>
+    <string name="no_texts">Ainda não há textos salvos</string>
+    <string name="import_file">Importar arquivo</string>
+    <string name="import_error_empty">O arquivo não tem texto.</string>
+    <string name="import_error_doc_old">O .doc antigo não é compatível — salve como .docx ou .txt e tente novamente.</string>
+    <string name="import_error_read">Não foi possível ler o arquivo.</string>
+    <string name="import_truncated">Importado. A versão gratuita mantém as primeiras %1$d palavras — desbloqueie a versão completa para o texto inteiro.</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="run">Escolher</string>
+    <string name="save">Salvar</string>
+    <string name="title_hint">Título</string>
+    <string name="body_hint">Texto</string>
+    <string name="back">Voltar</string>
+
+    <string name="settings">Configurações</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="language">Idioma</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <string name="login_intro">Digite sua senha de administrador (48 h) ou um código de convidado de uso único (24 h).</string>
+    <string name="passcode_hint">Senha de admin ou código de convidado</string>
+    <string name="login">Entrar</string>
+    <string name="login_failed">Senha incorreta</string>
+    <string name="session_status">Sessão</string>
+    <string name="session_admin">Administrador</string>
+    <string name="session_guest">Convidado</string>
+    <string name="session_hours_left">restam %1$d h</string>
+    <string name="logout">Sair</string>
+    <string name="change_password">Alterar senha de admin</string>
+    <string name="current_password">Senha atual</string>
+    <string name="new_password">Nova senha</string>
+    <string name="create_guest">Criar código de convidado</string>
+    <string name="guest_code">Código de convidado</string>
+    <string name="admin_password">Senha de admin</string>
+    <string name="password_changed">Senha alterada</string>
+    <string name="guest_created">Código de convidado criado</string>
+    <string name="action_failed">Falhou — verifique a senha</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Ativação Premium</string>
+    <string name="device_id">ID do dispositivo</string>
+    <string name="activation_code">Código de ativação</string>
+    <string name="copy">Copiar</string>
+    <string name="activate">Ativar</string>
+    <string name="buy_full">Comprar versão completa</string>
+    <string name="license_status">Status da licença</string>
+    <string name="status_free">Grátis</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">restam %1$d h até a reverificação</string>
+    <string name="license_expired">Acesso expirado — digite o código de novo para continuar</string>
+    <string name="activation_ok">Premium ativado</string>
+    <string name="activation_failed">Código de ativação inválido</string>
+    <string name="copied">Copiado</string>
+
+    <string name="free_limit_warning">Apenas as primeiras 100 palavras são exibidas. Compre a versão completa para textos sem limites.</string>
+
+    <string name="permissions_needed">Permissões necessárias</string>
+    <string name="perm_intro">Para conectar aos óculos Even G2, o app precisa de:</string>
+    <string name="perm_bluetooth">Bluetooth — encontrar e conectar aos óculos.</string>
+    <string name="perm_notifications">Notificações — o serviço em segundo plano mostra o status da conexão.</string>
+    <string name="perm_location">Localização — necessária para a busca BLE no Android 11 e anteriores.</string>
+    <string name="grant_permissions">Conceder permissões</string>
+    <string name="open_app_settings">Abrir configurações do app</string>
+    <string name="perm_settings_hint">Se a solicitação não aparecer mais, ative as permissões manualmente.</string>
+
+    <string name="crash_title">O app travou ao iniciar</string>
+    <string name="crash_hint">Copie o texto abaixo e envie — encontraremos a causa:</string>
+    <string name="retry">Reiniciar</string>
+
+    <string name="menu_select_text">Escolha um texto</string>
+    <string name="menu_no_texts">Sem textos. Adicione no telefone.</string>
+    <string name="menu_untitled">Sem título</string>
+
+    <string name="est_time_label">Tempo de leitura (auto): %1$s</string>
+    <string name="time_min_sec">%1$d min %2$d s</string>
+    <string name="time_sec">%1$d s</string>
+
+    <string name="app_mode">Modo do app</string>
+    <string name="mode_public">Público</string>
+    <string name="mode_rental">Aluguel</string>
+    <string name="mode_public_desc">Aberto para todos, sem senha. Aplicam-se os limites do plano grátis.</string>
+    <string name="mode_rental_desc">Acesso protegido por senha de admin e códigos de convidado — para alugar os óculos.</string>
+    <string name="enable_rental">Mudar para modo Aluguel</string>
+    <string name="disable_rental">Mudar para modo Público</string>
+    <string name="rental_enabled">Modo Aluguel ativo</string>
+    <string name="rental_disabled">Modo Público ativo</string>
+    <string name="rental_disable_admin">Digite a senha de admin para sair do modo Aluguel</string>
+
+    <string name="premium_title">Premium</string>
+    <string name="premium_desc">Remove todos os limites: textos e palavras sem restrição.</string>
+    <string name="premium_free_plan">Plano grátis: até %1$d textos, %2$d palavras cada.</string>
+    <string name="buy_premium">Comprar Premium</string>
+    <string name="restore_purchase">Restaurar compra</string>
+    <string name="premium_active">Premium ativo — obrigado!</string>
+    <string name="purchase_pending">Aguardando a confirmação do pagamento pelo banco…</string>
+    <string name="purchase_ok">Pagamento confirmado — Premium liberado</string>
+    <string name="purchase_failed">Não foi possível concluir a compra</string>
+    <string name="billing_unavailable">Loja indisponível. Instale pela Google Play para comprar Premium.</string>
+    <string name="limit_texts_reached">O plano grátis permite até %1$d textos. Assine o Premium para ilimitado.</string>
+    <string name="limit_words_notice">O plano grátis mostra as primeiras %1$d palavras. Assine o Premium para o texto completo.</string>
+
+    <string name="faq_title">Ajuda e FAQ</string>
+    <string name="faq_q_modes">O que são os modos Público e Aluguel?</string>
+    <string name="faq_a_modes">O modo Público é o app normal — qualquer um pode abrir, com os limites do plano grátis. O modo Aluguel protege o acesso com senha de admin e códigos de convidado de uso único, para emprestar os óculos.</string>
+    <string name="faq_q_glasses">Como escolho um texto nos óculos?</string>
+    <string name="faq_a_glasses">Abra o app pelo menu dos óculos. Deslize na barra tátil para percorrer seus textos, toque uma vez para iniciar o escolhido, toque duas vezes para voltar ao início.</string>
+    <string name="faq_q_auto">O que o modo Automático faz?</string>
+    <string name="faq_a_auto">No modo Automático o texto rola sozinho na sua velocidade de leitura (PPM). O tempo estimado para ler todo o texto aparece ao lado da velocidade.</string>
+    <string name="faq_q_limits">Quais são os limites do plano grátis?</string>
+    <string name="faq_a_limits">Plano grátis: até 2 textos, 100 palavras cada. O Premium remove os dois limites.</string>
+    <string name="faq_q_premium">Como funciona comprar o Premium?</string>
+    <string name="faq_a_premium">Toque em Comprar Premium e confirme o pagamento. Assim que seu banco/Google Play confirmar, o Premium é liberado automaticamente. Use Restaurar compra em um novo dispositivo.</string>
+    <string name="faq_q_lang">Posso mudar o idioma?</string>
+    <string name="faq_a_lang">Sim — escolha um idioma nas Configurações. O menu dos óculos segue o mesmo idioma.</string>
+
+    <string name="contact_title">Contato</string>
+    <string name="contact_desc">Dúvidas, erros ou ideias? Escreva para nós:</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">Escrever um e-mail</string>
+    <string name="contact_subject">Whisprompt — suporte</string>
+
+    <string name="signature_text">Feito por um estudante furioso de 16 anos que só queria usar os óculos onde bem entendesse.</string>
+
+    <string name="sec_help">Ajuda</string>
+    <string name="sec_access">Acesso e modo</string>
+    <string name="promo_buy_full">Versão completa: %1$s</string>
+    <string name="faq_q_battery">O app funciona em segundo plano?</string>
+    <string name="faq_a_battery">Sim. Enquanto conectado aos óculos, mantém um serviço em segundo plano (com notificação) para não perder a conexão, o que pode consumir bateria. Toque em Desconectar para parar.</string>
+    <string name="faq_q_even">Como restauro a interface completa do app Even?</string>
+    <string name="faq_a_even">Basta conectar com o app oficial Even — ele restaura a interface padrão completa nos óculos.</string>
+    <string name="faq_q_ring">Funciona com o anel R1?</string>
+    <string name="faq_a_ring">Ainda não — o controle pelo anel R1 chega em breve. Por enquanto, use a barra tátil dos óculos (personalizável nas Configurações) ou o telefone. O suporte ao anel está a caminho.</string>
+</resources>

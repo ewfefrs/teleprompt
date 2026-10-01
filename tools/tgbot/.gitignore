@@ -1,0 +1,9 @@
+license_private.pem
+license_private_b64.txt
+bot_token.txt
+cryptobot_token.txt
+xrocket_token.txt
+issued_keys.log
+__pycache__/
+*.pyc
+.env

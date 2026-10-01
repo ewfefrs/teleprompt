@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Connecter</string>
+    <string name="disconnect">Déconnecter</string>
+    <string name="cancel_search">Annuler la recherche</string>
+    <string name="status_title">État des lunettes Even G2</string>
+    <string name="st_disconnected">Déconnecté</string>
+    <string name="st_scanning">Recherche…</string>
+    <string name="st_connecting">Connexion…</string>
+    <string name="st_authorizing">Autorisation…</string>
+    <string name="st_connected">Connecté ✓</string>
+    <string name="st_showing">Affichage…</string>
+    <string name="st_no_permission">Pas d\'autorisation</string>
+
+    <string name="speed_label">Vitesse de lecture : %1$d MPM</string>
+    <string name="countdown_label">Compte à rebours avant le départ (3-2-1)</string>
+    <string name="countdown_desc">Affiche 3-2-1 sur les lunettes avant le défilement automatique.</string>
+    <string name="playback_title">Lecture</string>
+    <string name="gestures_title">Gestes du pavé tactile</string>
+    <string name="gesture_tap">Appui simple</string>
+    <string name="gesture_double">Double appui</string>
+    <string name="gesture_swipe_fwd">Balayer vers l\'avant</string>
+    <string name="gesture_swipe_back">Balayer vers l\'arrière</string>
+    <string name="gesture_none">Rien</string>
+    <string name="gesture_sleep_wake">Éteindre / allumer l\'écran</string>
+    <string name="gesture_scroll_fwd">Défiler en avant</string>
+    <string name="gesture_scroll_back">Défiler en arrière</string>
+    <string name="gesture_pause_resume">Pause / reprendre</string>
+    <string name="gesture_exit">Quitter</string>
+    <string name="autohide_label">Masquer le texte à la fin</string>
+    <string name="autohide_never">Jamais</string>
+    <string name="about_title">À propos</string>
+    <string name="about_body">Whisprompt a été créé pour que vous puissiez lire vos propres scripts sur vos lunettes Even G2 partout — sur scène, en réunion, dans la rue, face caméra — sans dépendre d\'internet. Pas de compte, pas de cloud, pas de suivi : votre texte reste sur votre téléphone et fonctionne même en mode avion. Créé par quelqu\'un qui voulait simplement utiliser ses lunettes où il veut, et préserver cette liberté pour tous.</string>
+    <string name="column_width_label">Largeur de colonne : %1$d car.</string>
+    <string name="manual_scroll_label">Défilement sur les lunettes : ligne %1$d / %2$d</string>
+    <string name="brightness_label">Luminosité des lunettes : %1$d</string>
+
+    <string name="scroll_mode_title">Défilement sur les lunettes</string>
+    <string name="mode_auto">Auto</string>
+    <string name="mode_manual">Manuel</string>
+    <string name="mode_hint_auto">Le texte défile tout seul. La vitesse change en direct ; votre doigt ajuste la position.</string>
+    <string name="mode_hint_manual">Faites défiler avec le doigt sur l\'aperçu ou glissez sur le pavé tactile des lunettes — instantané, sans clignotement.</string>
+
+    <string name="start">Démarrer</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Reprendre</string>
+    <string name="stop">Arrêter</string>
+
+    <string name="preview_title">Aperçu</string>
+
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · HORS LIGNE</string>
+    <string name="sec_text">Texte</string>
+    <string name="sec_connection">Connexion</string>
+    <string name="sec_screen">Écran des lunettes</string>
+    <string name="sec_preview">Comme sur les lunettes · aperçu</string>
+    <string name="screen_wide">Large</string>
+    <string name="screen_narrow">Étroit</string>
+    <string name="preview_hint">Faites défiler le texte avec le doigt — les lunettes suivent. Touchez pour le plein écran.</string>
+    <string name="current_text">Texte actuel</string>
+    <string name="no_text_selected">Aucun texte choisi — sélectionnez-en un ou créez-en un nouveau.</string>
+
+    <string name="create_text">Nouveau texte</string>
+    <string name="my_texts">Mes textes</string>
+    <string name="no_texts">Aucun texte enregistré</string>
+    <string name="import_file">Importer un fichier</string>
+    <string name="import_error_empty">Le fichier ne contient pas de texte.</string>
+    <string name="import_error_doc_old">L\'ancien .doc n\'est pas pris en charge — enregistrez-le en .docx ou .txt et réessayez.</string>
+    <string name="import_error_read">Impossible de lire le fichier.</string>
+    <string name="import_truncated">Importé. La version gratuite conserve les %1$d premiers mots — débloquez la version complète pour tout le texte.</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="run">Choisir</string>
+    <string name="save">Enregistrer</string>
+    <string name="title_hint">Titre</string>
+    <string name="body_hint">Texte</string>
+    <string name="back">Retour</string>
+
+    <string name="settings">Paramètres</string>
+    <string name="theme">Thème</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="language">Langue</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <string name="login_intro">Saisissez votre mot de passe admin (48 h) ou un code invité à usage unique (24 h).</string>
+    <string name="passcode_hint">Mot de passe admin ou code invité</string>
+    <string name="login">Entrer</string>
+    <string name="login_failed">Mot de passe incorrect</string>
+    <string name="session_status">Session</string>
+    <string name="session_admin">Admin</string>
+    <string name="session_guest">Invité</string>
+    <string name="session_hours_left">%1$d h restantes</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="change_password">Changer le mot de passe admin</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="create_guest">Créer un code invité</string>
+    <string name="guest_code">Code invité</string>
+    <string name="admin_password">Mot de passe admin</string>
+    <string name="password_changed">Mot de passe modifié</string>
+    <string name="guest_created">Code invité créé</string>
+    <string name="action_failed">Échec — vérifiez le mot de passe</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Activation Premium</string>
+    <string name="device_id">ID de l\'appareil</string>
+    <string name="activation_code">Code d\'activation</string>
+    <string name="copy">Copier</string>
+    <string name="activate">Activer</string>
+    <string name="buy_full">Acheter la version complète</string>
+    <string name="license_status">État de la licence</string>
+    <string name="status_free">Gratuit</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">%1$d h avant nouvelle vérification</string>
+    <string name="license_expired">Accès expiré — saisissez le code à nouveau pour continuer</string>
+    <string name="activation_ok">Premium activé</string>
+    <string name="activation_failed">Code d\'activation non valide</string>
+    <string name="copied">Copié</string>
+
+    <string name="free_limit_warning">Seuls les 100 premiers mots sont affichés. Achetez la version complète pour des textes sans limite.</string>
+
+    <string name="permissions_needed">Autorisations nécessaires</string>
+    <string name="perm_intro">Pour se connecter aux lunettes Even G2, l\'app a besoin de :</string>
+    <string name="perm_bluetooth">Bluetooth — trouver et connecter les lunettes.</string>
+    <string name="perm_notifications">Notifications — le service en arrière-plan affiche l\'état de la connexion.</string>
+    <string name="perm_location">Localisation — requise pour le scan BLE sur Android 11 et antérieurs.</string>
+    <string name="grant_permissions">Accorder les autorisations</string>
+    <string name="open_app_settings">Ouvrir les paramètres de l\'app</string>
+    <string name="perm_settings_hint">Si la demande n\'apparaît plus, activez les autorisations manuellement.</string>
+
+    <string name="crash_title">L\'app a planté au démarrage</string>
+    <string name="crash_hint">Copiez le texte ci-dessous et envoyez-le — nous trouverons la cause :</string>
+    <string name="retry">Redémarrer</string>
+
+    <string name="menu_select_text">Choisissez un texte</string>
+    <string name="menu_no_texts">Aucun texte. Ajoutez sur le téléphone.</string>
+    <string name="menu_untitled">Sans titre</string>
+
+    <string name="est_time_label">Temps de lecture (auto) : %1$s</string>
+    <string name="time_min_sec">%1$d min %2$d s</string>
+    <string name="time_sec">%1$d s</string>
+
+    <string name="app_mode">Mode de l\'app</string>
+    <string name="mode_public">Public</string>
+    <string name="mode_rental">Location</string>
+    <string name="mode_public_desc">Ouvert à tous, sans mot de passe. Les limites du forfait gratuit s\'appliquent.</string>
+    <string name="mode_rental_desc">Accès protégé par un mot de passe admin et des codes invité — pour louer les lunettes.</string>
+    <string name="enable_rental">Passer en mode Location</string>
+    <string name="disable_rental">Passer en mode Public</string>
+    <string name="rental_enabled">Mode Location activé</string>
+    <string name="rental_disabled">Mode Public activé</string>
+    <string name="rental_disable_admin">Saisissez le mot de passe admin pour quitter le mode Location</string>
+
+    <string name="premium_title">Premium</string>
+    <string name="premium_desc">Supprime toutes les limites : textes et mots sans restriction.</string>
+    <string name="premium_free_plan">Forfait gratuit : jusqu\'à %1$d textes, %2$d mots chacun.</string>
+    <string name="buy_premium">Acheter Premium</string>
+    <string name="restore_purchase">Restaurer l\'achat</string>
+    <string name="premium_active">Premium actif — merci !</string>
+    <string name="purchase_pending">En attente de la confirmation du paiement par la banque…</string>
+    <string name="purchase_ok">Paiement confirmé — Premium débloqué</string>
+    <string name="purchase_failed">Impossible de finaliser l\'achat</string>
+    <string name="billing_unavailable">Boutique indisponible. Installez via Google Play pour acheter Premium.</string>
+    <string name="limit_texts_reached">Le forfait gratuit autorise jusqu\'à %1$d textes. Passez à Premium pour un accès illimité.</string>
+    <string name="limit_words_notice">Le forfait gratuit affiche les %1$d premiers mots. Passez à Premium pour le texte complet.</string>
+
+    <string name="faq_title">Aide et FAQ</string>
+    <string name="faq_q_modes">Quels sont les modes Public et Location ?</string>
+    <string name="faq_a_modes">Le mode Public est l\'app normale — tout le monde peut l\'ouvrir, avec les limites du forfait gratuit. Le mode Location protège l\'accès par un mot de passe admin et des codes invité à usage unique, pour prêter les lunettes.</string>
+    <string name="faq_q_glasses">Comment choisir un texte sur les lunettes ?</string>
+    <string name="faq_a_glasses">Ouvrez l\'app depuis le menu des lunettes. Glissez sur le pavé tactile pour parcourir vos textes, touchez une fois pour lancer le texte choisi, touchez deux fois pour revenir à l\'accueil.</string>
+    <string name="faq_q_auto">Que fait le mode Auto ?</string>
+    <string name="faq_a_auto">En mode Auto, le texte défile seul à votre vitesse de lecture (MPM). Le temps estimé pour lire tout le texte est affiché à côté de la vitesse.</string>
+    <string name="faq_q_limits">Quelles sont les limites du forfait gratuit ?</string>
+    <string name="faq_a_limits">Forfait gratuit : jusqu\'à 2 textes, 100 mots chacun. Premium supprime les deux limites.</string>
+    <string name="faq_q_premium">Comment fonctionne l\'achat de Premium ?</string>
+    <string name="faq_a_premium">Touchez Acheter Premium et confirmez le paiement. Dès que votre banque/Google Play le confirme, Premium se débloque automatiquement. Utilisez Restaurer l\'achat sur un nouvel appareil.</string>
+    <string name="faq_q_lang">Puis-je changer de langue ?</string>
+    <string name="faq_a_lang">Oui — choisissez une langue dans les Paramètres. Le menu des lunettes suit la même langue.</string>
+
+    <string name="contact_title">Contact</string>
+    <string name="contact_desc">Questions, bugs ou idées ? Écrivez-nous :</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">Écrire un e-mail</string>
+    <string name="contact_subject">Whisprompt — support</string>
+
+    <string name="signature_text">Fait par un lycéen de 16 ans furieux qui voulait juste utiliser ses lunettes où bon lui semble.</string>
+
+    <string name="sec_help">Aide</string>
+    <string name="sec_access">Accès et mode</string>
+    <string name="promo_buy_full">Version complète : %1$s</string>
+    <string name="faq_q_battery">L\'app fonctionne-t-elle en arrière-plan ?</string>
+    <string name="faq_a_battery">Oui. Pendant la connexion aux lunettes, un service en arrière-plan (avec notification) reste actif pour garder le lien — cela peut consommer de la batterie. Touchez Déconnecter pour l\'arrêter.</string>
+    <string name="faq_q_even">Comment retrouver l\'interface complète de l\'app Even ?</string>
+    <string name="faq_a_even">Connectez-vous simplement avec l\'app officielle Even — elle rétablit l\'interface standard complète sur les lunettes.</string>
+    <string name="faq_q_ring">Fonctionne-t-il avec la bague R1 ?</string>
+    <string name="faq_a_ring">Pas encore — la commande par la bague R1 arrive bientôt. Pour l\'instant, utilisez le pavé tactile des lunettes (personnalisable dans les Réglages) ou le téléphone. La prise en charge de la bague est en préparation.</string>
+</resources>

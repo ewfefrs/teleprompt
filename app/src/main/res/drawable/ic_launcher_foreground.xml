@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Окно суфлёра (рамка) -->
+    <path
+        android:strokeColor="#2E7D4F"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M25,33 h58 a5,5 0 0 1 5,5 v32 a5,5 0 0 1 -5,5 h-58 a5,5 0 0 1 -5,-5 v-32 a5,5 0 0 1 5,-5 z" />
+    <!-- Строки бегущего текста (зелёные, скруглённые) -->
+    <path
+        android:strokeColor="#54E67A"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M32,45 L76,45" />
+    <path
+        android:strokeColor="#54E67A"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M32,57 L62,57" />
+    <path
+        android:strokeColor="#54E67A"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M32,69 L70,69" />
+</vector>

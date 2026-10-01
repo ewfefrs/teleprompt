@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whisprompt</string>
+
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="cancel_search">Cancelar búsqueda</string>
+    <string name="status_title">Estado de las gafas Even G2</string>
+    <string name="st_disconnected">Desconectado</string>
+    <string name="st_scanning">Buscando…</string>
+    <string name="st_connecting">Conectando…</string>
+    <string name="st_authorizing">Autorizando…</string>
+    <string name="st_connected">Conectado ✓</string>
+    <string name="st_showing">Mostrando…</string>
+    <string name="st_no_permission">Sin permiso</string>
+
+    <string name="speed_label">Velocidad de lectura: %1$d PPM</string>
+    <string name="countdown_label">Cuenta atrás antes de empezar (3-2-1)</string>
+    <string name="countdown_desc">Muestra 3-2-1 en las gafas antes de iniciar el desplazamiento automático.</string>
+    <string name="playback_title">Reproducción</string>
+    <string name="gestures_title">Gestos de la barra táctil</string>
+    <string name="gesture_tap">Toque simple</string>
+    <string name="gesture_double">Doble toque</string>
+    <string name="gesture_swipe_fwd">Deslizar adelante</string>
+    <string name="gesture_swipe_back">Deslizar atrás</string>
+    <string name="gesture_none">Nada</string>
+    <string name="gesture_sleep_wake">Apagar / encender pantalla</string>
+    <string name="gesture_scroll_fwd">Desplazar adelante</string>
+    <string name="gesture_scroll_back">Desplazar atrás</string>
+    <string name="gesture_pause_resume">Pausar / reanudar</string>
+    <string name="gesture_exit">Salir</string>
+    <string name="autohide_label">Ocultar texto al terminar</string>
+    <string name="autohide_never">Nunca</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_body">Whisprompt se creó para que puedas leer tus propios guiones en tus gafas Even G2 en cualquier lugar —en el escenario, en una reunión, en la calle, ante la cámara— sin depender de internet. Sin cuenta, sin nube, sin rastreo: tu texto permanece en tu teléfono y funciona incluso en modo avión. Creado por alguien que solo quería usar sus gafas donde quisiera, y mantener esa libertad para todos.</string>
+    <string name="column_width_label">Ancho de columna: %1$d car.</string>
+    <string name="manual_scroll_label">Desplazamiento en las gafas: línea %1$d / %2$d</string>
+    <string name="brightness_label">Brillo de las gafas: %1$d</string>
+
+    <string name="scroll_mode_title">Desplazamiento en las gafas</string>
+    <string name="mode_auto">Automático</string>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_hint_auto">El texto se desplaza solo. La velocidad cambia al instante; tu dedo ajusta la posición.</string>
+    <string name="mode_hint_manual">Desplaza con el dedo en la vista previa o desliza en la barra táctil de las gafas — al instante, sin parpadeos.</string>
+
+    <string name="start">Iniciar</string>
+    <string name="pause">Pausar</string>
+    <string name="resume">Reanudar</string>
+    <string name="stop">Detener</string>
+
+    <string name="preview_title">Vista previa</string>
+
+    <string name="wordmark">WHISPROMPT</string>
+    <string name="wordmark_sub">EVEN G2 · SIN CONEXIÓN</string>
+    <string name="sec_text">Texto</string>
+    <string name="sec_connection">Conexión</string>
+    <string name="sec_screen">Pantalla de las gafas</string>
+    <string name="sec_preview">Como en las gafas · vista previa</string>
+    <string name="screen_wide">Ancho</string>
+    <string name="screen_narrow">Estrecho</string>
+    <string name="preview_hint">Desplaza el texto con el dedo — las gafas siguen. Toca para pantalla completa.</string>
+    <string name="current_text">Texto actual</string>
+    <string name="no_text_selected">Aún no hay texto — elige uno o crea uno nuevo.</string>
+
+    <string name="create_text">Nuevo texto</string>
+    <string name="my_texts">Mis textos</string>
+    <string name="no_texts">Aún no hay textos guardados</string>
+    <string name="import_file">Importar archivo</string>
+    <string name="import_error_empty">El archivo no tiene texto.</string>
+    <string name="import_error_doc_old">El .doc antiguo no es compatible: guárdalo como .docx o .txt e inténtalo de nuevo.</string>
+    <string name="import_error_read">No se pudo leer el archivo.</string>
+    <string name="import_truncated">Importado. La versión gratuita conserva las primeras %1$d palabras: desbloquea la versión completa para todo el texto.</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="run">Elegir</string>
+    <string name="save">Guardar</string>
+    <string name="title_hint">Título</string>
+    <string name="body_hint">Texto</string>
+    <string name="back">Atrás</string>
+
+    <string name="settings">Ajustes</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="language">Idioma</string>
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_es">Español</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_pt">Português</string>
+    <string name="language_it">Italiano</string>
+
+    <string name="login_intro">Introduce tu contraseña de administrador (48 h) o un código de invitado de un solo uso (24 h).</string>
+    <string name="passcode_hint">Contraseña de admin o código de invitado</string>
+    <string name="login">Entrar</string>
+    <string name="login_failed">Contraseña incorrecta</string>
+    <string name="session_status">Sesión</string>
+    <string name="session_admin">Administrador</string>
+    <string name="session_guest">Invitado</string>
+    <string name="session_hours_left">quedan %1$d h</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="change_password">Cambiar contraseña de admin</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="create_guest">Crear código de invitado</string>
+    <string name="guest_code">Código de invitado</string>
+    <string name="admin_password">Contraseña de admin</string>
+    <string name="password_changed">Contraseña cambiada</string>
+    <string name="guest_created">Código de invitado creado</string>
+    <string name="action_failed">Error — revisa la contraseña</string>
+
+    <string name="premium">Premium</string>
+    <string name="premium_activation">Activación Premium</string>
+    <string name="device_id">ID del dispositivo</string>
+    <string name="activation_code">Código de activación</string>
+    <string name="copy">Copiar</string>
+    <string name="activate">Activar</string>
+    <string name="buy_full">Comprar versión completa</string>
+    <string name="license_status">Estado de la licencia</string>
+    <string name="status_free">Gratis</string>
+    <string name="status_premium">Premium</string>
+    <string name="license_hours_left">quedan %1$d h para la reverificación</string>
+    <string name="license_expired">El acceso ha caducado — introduce el código de nuevo para continuar</string>
+    <string name="activation_ok">Premium activado</string>
+    <string name="activation_failed">Código de activación no válido</string>
+    <string name="copied">Copiado</string>
+
+    <string name="free_limit_warning">Solo se muestran las primeras 100 palabras. Compra la versión completa para usar textos sin límites.</string>
+
+    <string name="permissions_needed">Se necesitan permisos</string>
+    <string name="perm_intro">Para conectar con las gafas Even G2 la app necesita:</string>
+    <string name="perm_bluetooth">Bluetooth — buscar y conectar con las gafas.</string>
+    <string name="perm_notifications">Notificaciones — el servicio en segundo plano muestra el estado de la conexión.</string>
+    <string name="perm_location">Ubicación — necesaria para el escaneo BLE en Android 11 y anteriores.</string>
+    <string name="grant_permissions">Conceder permisos</string>
+    <string name="open_app_settings">Abrir ajustes de la app</string>
+    <string name="perm_settings_hint">Si ya no aparece la solicitud, activa los permisos manualmente.</string>
+
+    <string name="crash_title">La app se cerró al iniciar</string>
+    <string name="crash_hint">Copia el texto de abajo y envíalo — encontraremos la causa:</string>
+    <string name="retry">Reiniciar</string>
+
+    <string name="menu_select_text">Elige un texto</string>
+    <string name="menu_no_texts">Sin textos. Añade en el teléfono.</string>
+    <string name="menu_untitled">Sin título</string>
+
+    <string name="est_time_label">Tiempo de lectura (auto): %1$s</string>
+    <string name="time_min_sec">%1$d min %2$d s</string>
+    <string name="time_sec">%1$d s</string>
+
+    <string name="app_mode">Modo de la app</string>
+    <string name="mode_public">Público</string>
+    <string name="mode_rental">Alquiler</string>
+    <string name="mode_public_desc">Abierto para todos, sin contraseña. Se aplican los límites del plan gratis.</string>
+    <string name="mode_rental_desc">Acceso protegido con contraseña de admin y códigos de invitado — para alquilar las gafas.</string>
+    <string name="enable_rental">Cambiar a modo Alquiler</string>
+    <string name="disable_rental">Cambiar a modo Público</string>
+    <string name="rental_enabled">Modo Alquiler activado</string>
+    <string name="rental_disabled">Modo Público activado</string>
+    <string name="rental_disable_admin">Introduce la contraseña de admin para salir del modo Alquiler</string>
+
+    <string name="premium_title">Premium</string>
+    <string name="premium_desc">Elimina todos los límites: textos y palabras sin restricción.</string>
+    <string name="premium_free_plan">Plan gratis: hasta %1$d textos, %2$d palabras cada uno.</string>
+    <string name="buy_premium">Comprar Premium</string>
+    <string name="restore_purchase">Restaurar compra</string>
+    <string name="premium_active">Premium activo — ¡gracias!</string>
+    <string name="purchase_pending">Esperando la confirmación del pago por el banco…</string>
+    <string name="purchase_ok">Pago confirmado — Premium desbloqueado</string>
+    <string name="purchase_failed">No se pudo completar la compra</string>
+    <string name="billing_unavailable">Tienda no disponible. Instala desde Google Play para comprar Premium.</string>
+    <string name="limit_texts_reached">El plan gratis permite hasta %1$d textos. Hazte Premium para textos ilimitados.</string>
+    <string name="limit_words_notice">El plan gratis muestra las primeras %1$d palabras. Hazte Premium para el texto completo.</string>
+
+    <string name="faq_title">Ayuda y preguntas</string>
+    <string name="faq_q_modes">¿Qué son los modos Público y Alquiler?</string>
+    <string name="faq_a_modes">El modo Público es la app normal — cualquiera la abre, con límites del plan gratis. El modo Alquiler protege el acceso con contraseña de admin y códigos de invitado de un solo uso, para prestar las gafas.</string>
+    <string name="faq_q_glasses">¿Cómo elijo un texto en las gafas?</string>
+    <string name="faq_a_glasses">Abre la app desde el menú de las gafas. Desliza en la barra táctil para recorrer tus textos, toca una vez para iniciar el elegido y toca dos veces para volver al inicio.</string>
+    <string name="faq_q_auto">¿Qué hace el modo Automático?</string>
+    <string name="faq_a_auto">En modo Automático el texto se desplaza solo a tu velocidad de lectura (PPM). El tiempo estimado para leer todo el texto se muestra junto a la velocidad.</string>
+    <string name="faq_q_limits">¿Cuáles son los límites del plan gratis?</string>
+    <string name="faq_a_limits">Plan gratis: hasta 2 textos, 100 palabras cada uno. Premium elimina ambos límites.</string>
+    <string name="faq_q_premium">¿Cómo funciona comprar Premium?</string>
+    <string name="faq_a_premium">Toca Comprar Premium y confirma el pago. En cuanto tu banco/Google Play lo confirme, Premium se desbloquea automáticamente. Usa Restaurar compra en un dispositivo nuevo.</string>
+    <string name="faq_q_lang">¿Puedo cambiar el idioma?</string>
+    <string name="faq_a_lang">Sí — elige un idioma en Ajustes. El menú de las gafas usa el mismo idioma.</string>
+
+    <string name="contact_title">Contacto</string>
+    <string name="contact_desc">¿Preguntas, errores o ideas? Escríbenos:</string>
+    <string name="contact_email">Whisprompt@outlook.com</string>
+    <string name="contact_write">Escribir un correo</string>
+    <string name="contact_subject">Whisprompt — soporte</string>
+
+    <string name="signature_text">Hecho por un colegial furioso de 16 años que solo quería usar sus gafas donde le diera la gana.</string>
+
+    <string name="sec_help">Ayuda</string>
+    <string name="sec_access">Acceso y modo</string>
+    <string name="promo_buy_full">Versión completa: %1$s</string>
+    <string name="faq_q_battery">¿La app funciona en segundo plano?</string>
+    <string name="faq_a_battery">Sí. Mientras está conectada a las gafas mantiene un servicio en segundo plano (con notificación) para no perder la conexión, lo que puede consumir batería. Toca Desconectar para detenerlo.</string>
+    <string name="faq_q_even">¿Cómo recupero la interfaz completa de la app Even?</string>
+    <string name="faq_a_even">Solo conéctate con la app oficial Even — restaura la interfaz estándar completa en las gafas.</string>
+    <string name="faq_q_ring">¿Funciona con el anillo R1?</string>
+    <string name="faq_a_ring">Todavía no — el control con el anillo R1 llegará pronto. Por ahora usa la barra táctil de las gafas (personalizable en Ajustes) o el teléfono. El soporte del anillo está en camino.</string>
+</resources>
